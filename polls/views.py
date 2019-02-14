@@ -21,5 +21,5 @@ storage=firebase.storage()
 def vote(request):
     return render(request,"vote.html")
 
-def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+def polls(request):
+    return render(request,"polls.html")
